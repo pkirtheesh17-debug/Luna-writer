@@ -1,0 +1,17 @@
+# Python virtualenv
+.venv/
+venv/
+ENV/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment secrets
+.env
+
+# Uploads temporary directory
+uploads/*
+!uploads/.gitkeep
